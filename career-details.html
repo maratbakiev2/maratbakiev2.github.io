@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Grouwthus</title>
+
+  <!--Meta For No Index-->
+  <meta name="robots" content="noindex, Nofollow, Noimageindex">
+  
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Stylesheets -->
+  <link href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet" />
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="vendor/icomoon/style.css" rel="stylesheet" />
+  <link href="vendor/aos/aos.css" rel="stylesheet" />
+  <link href="vendor/slick/slick-theme.css" rel="stylesheet" />
+  <link href="vendor/slick/slick.css" rel="stylesheet" />
+  <link href="css/theme.css" rel="stylesheet" />
+  <link href="vendor/phosphor-icons/css/phosphor.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+</head>
+
+<body>
+
+<!--
+  #############
+  Navbar Area
+  #############
+-->
+
+<header>
+  <!--Navbar-->
+  <nav
+    class="navbar navbar-expand-lg position-fixed w-100 zindex-dropdown"
+    id="navigationBar"
+  >
+    <div class="container">
+      <!--Navbar Brand-->
+      <a
+        class="navbar-brand"
+        href="index.html"
+      >
+        <img
+          src="images/logo.svg"
+          alt="logo"
+        />
+      </a>
+      <!--Navbar Toggler-->
+      <button
+        class="navbar-toggler p-3"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-default">
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 18 18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill="white"
+              d="M17.4,6.2H0.6C0.3,6.2,0,5.9,0,5.5V4.1c0-0.4,0.3-0.7,0.6-0.7h16.9c0.3,0,0.6,0.3,0.6,0.7v1.4C18,5.9,17.7,6.2,17.4,6.2z M17.4,14.1H0.6c-0.3,0-0.6-0.3-0.6-0.7V12c0-0.4,0.3-0.7,0.6-0.7h16.9c0.3,0,0.6,0.3,0.6,0.7v1.4C18,13.7,17.7,14.1,17.4,14.1z"
+            ></path>
+          </svg>
+        </span>
+        <span class="navbar-toggler-toggled">
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 18 18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill="white"
+              d="M11.5,9.5l5-5c0.2-0.2,0.2-0.6-0.1-0.9l-1-1c-0.3-0.3-0.7-0.3-0.9-0.1l-5,5l-5-5C4.3,2.3,3.9,2.4,3.6,2.6l-1,1 C2.4,3.9,2.3,4.3,2.5,4.5l5,5l-5,5c-0.2,0.2-0.2,0.6,0.1,0.9l1,1c0.3,0.3,0.7,0.3,0.9,0.1l5-5l5,5c0.2,0.2,0.6,0.2,0.9-0.1l1-1 c0.3-0.3,0.3-0.7,0.1-0.9L11.5,9.5z"
+            ></path>
+          </svg>
+        </span>
+      </button>
+      <!--Navbar Menus Collapse-->
+      <div
+        class="collapse navbar-collapse"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav ms-xl-5">
+          <li class="nav-item">
+            <a
+              href="about.html"
+              class="nav-link "
+            >
+              About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              href="service.html"
+            >
+              Services
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              href="career.html"
+            >
+              Job
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              href="project.html"
+            >
+              Portfolio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              href="blog.html"
+            >
+              Blog
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              role="button"
+              data-bs-toggle="dropdown"
+            >
+              Others
+            </a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-menu-wrapper">
+                <ul class="list-unstyled">
+                  <li class="dropdown-menu-item">
+                    <a href="service-single.html"> Service Details </a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a href="career-details.html"> Job Details </a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a href="blog-details.html"> Blog Single </a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a href="contact.html"> Contact Page </a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a href="taxonomy.html"> Taxonomy Page </a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a href="404.html"> 404 Page </a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a href="privacy-policy.html"> Privacy & Policy </a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a href="terms-condition.html"> Terms & Conditions </a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a href="business-policy.html"> Business Policy </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item ms-lg-6 ms-sm-0">
+            <a
+              class="btn btn-navigation w-100"
+              href="contact.html"
+              tabindex="-1"
+              aria-disabled="true"
+            >
+              Let's Talk
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<!--
+  #############
+  End of  Navbar Area
+  #############
+-->
+
+
+<!--
+  ###########
+  HEro Section For Projects
+  ###########
+-->
+<section class="page-hero">
+  <div class="container">
+    <div class="row">
+      <div class="@@collClass">
+        <div class="page-heading">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li
+                class="breadcrumb-item"
+                aria-current="page"
+              >
+                <a href="index.html"> Home </a>
+              </li>
+              <li
+                class="breadcrumb-item active "
+                aria-current="page"
+              >
+                Job Title
+              </li>
+            </ol>
+          </nav>
+          <div class="page-heading-content">
+            <h1>Customer Experience <br>Representative</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- #############
+  Career Details Section for About  Page
+  ############# -->
+<section class="career-details py-7">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9">
+        <div class="career-details-content">
+          <h3>About the team</h3>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+            some form, by injected humour, or randomised words which don’t look even slightly believable. If you are
+            going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the
+            middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+            necessary, making this the first true generator on the Internet.
+          </p>
+        </div>
+        <div class="career-details-content">
+          <h3>Job Description</h3>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+            some form, by injected humour, or randomised words which don’t look even slightly believable.
+          </p>
+          <p>
+            If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing
+            hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined
+            chunks as necessary, making this the first true generator on the Internet. If you have experience selling to
+            inbound prospects and you enjoy working in a start-up environment, this is a rare opportunity to join an
+            early stage, self-funded, customer-centered, and 100% distributed team. You will manage a pipeline of
+            inbound leads, whether that’s reactively offering your time and expertise, or reaching out to prospects to
+            guide them through their purchasing process.
+          </p>
+        </div>
+        <div class="career-details-content">
+          <h3>You Will:</h3>
+          <ul class="list-unstyled">
+            <li>
+              <span> - </span>
+              <p>Manage a pipeline of opportunities at different stages in the sales funnel.</p>
+            </li>
+            <li>
+              <span> - </span>
+              <p>
+                Understand the needs and challenges of prospective customers by taking a consultative approach to
+                selling.
+              </p>
+            </li>
+            <li>
+              <span> - </span>
+              <p>Conduct consultative demos and present webinars for both prospects and customers.</p>
+            </li>
+            <li>
+              <span> - </span>
+              <p>
+                Assist prospects with the procurement process in particular with their legal and security requirements.
+              </p>
+            </li>
+            <li>
+              <span> - </span>
+              <p>
+                Work with technical members of the Hotjar team to ensure consistency, clarity, and accuracy in all
+                recommendations provided to current and prospective customers.
+              </p>
+            </li>
+            <li>
+              <span> - </span>
+              <p>
+                Communicate prospective customer needs to product managers and product teams to close the feedback loop.
+              </p>
+            </li>
+            <li>
+              <span> - </span>
+              <p>Help refine the self-service experience for leads that fall outside of the sales touch.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="career-details-content">
+          <h3>Requirments</h3>
+          <ul class="list-unstyled">
+            <li>
+              <span> - </span>
+              <p>3+ years of inbound sales experience, ideally SaaS and quota carrying.</p>
+            </li>
+            <li>
+              <span> - </span>
+              <p>
+                You are technically-minded. You can develop a deep knowledge of how Hotjar works, allowing you to speak
+                clearly to customers and communicate their needs to our team.
+              </p>
+            </li>
+            <li>
+              <span> - </span>
+              <p>You are experienced with taking sales calls, diligently following up, and closing deals.</p>
+            </li>
+            <li>
+              <span> - </span>
+              <p>Enthusiasm to adapt, learn via coaching, and contribute to an evolving sales team’s strategy.</p>
+            </li>
+            <li>
+              <span> - </span>
+              <p>Experience with Salesforce or an equivalent tool.</p>
+            </li>
+            <li>
+              <span> - </span>
+              <p>
+                Desire to work in a respectful, transparent, and collaborative work environment, following Hotjar’s
+                company values, culture and ways of working.
+              </p>
+            </li>
+            <li>
+              <span> - </span>
+              <p>Must submit to a background check confidentially processed by our third-party.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="career-details-content mb-0">
+          <h3>Compensation Range</h3>
+          <p>
+            The compensation range for this role is €50,000 to €85,000 annually. This was established after performing
+            market research and is aligned with our approach to compensation. We encourage all candidates to read our
+            Recruitment FAQs to further understand our approach to compensation and how we structure our contracts.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- #############
+  Career Details Section for About  Page
+  ############# -->
+
+
+<!-- #############
+  Career Contact  Form
+  ############# -->
+<section class="career-contact-form contact-form py-7">
+  <div class="container">
+    <div class="row">
+      <!--Contact Form Area-->
+      <div class="col-lg-9 mx-auto">
+        <div class="section-header text-start">
+          <h2>Apply for this job</h2>
+        </div>
+        <form class="row g-4">
+          <div class="col-md-12">
+            <label class="form-label d-block"> Upload Your Resume </label>
+            <!-- <input class="form-control-file" type="file" id="inportFile"> -->
+            <!-- actual upload which is hidden -->
+            <input
+              type="file"
+              id="file-input"
+              hidden
+            />
+            <!-- our custom upload button -->
+            <label
+              class="file-input"
+              for="file-input"
+            >
+              <svg
+                width="17"
+                height="20"
+                viewBox="0 0 17 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="svg-stroke-black"
+                  d="M11.7495 5.87451L4.59023 13.1527C4.33237 13.4105 4.1875 13.7603 4.1875 14.1249C4.1875 14.4896 4.33237 14.8393 4.59023 15.0972C4.84809 15.3551 5.19783 15.4999 5.5625 15.4999C5.92717 15.4999 6.27691 15.3551 6.53477 15.0972L15.069 6.44406C15.3244 6.18869 15.527 5.88554 15.6652 5.55189C15.8034 5.21825 15.8745 4.86065 15.8745 4.49951C15.8745 4.13838 15.8034 3.78078 15.6652 3.44713C15.527 3.11349 15.3244 2.81033 15.069 2.55497C14.8137 2.29961 14.5105 2.09704 14.1769 1.95884C13.8432 1.82064 13.4856 1.74951 13.1245 1.74951C12.7634 1.74951 12.4058 1.82064 12.0721 1.95884C11.7385 2.09704 11.4353 2.29961 11.18 2.55497L2.64568 11.2081C1.8721 11.9817 1.4375 13.0309 1.4375 14.1249C1.4375 15.2189 1.8721 16.2682 2.64568 17.0417C3.41927 17.8153 4.46848 18.2499 5.5625 18.2499C6.65652 18.2499 7.70573 17.8153 8.47932 17.0417L15.5307 9.99951"
+                  stroke=""
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span id="file">Upload CV</span>
+            </label>
+            <!-- name of file chosen -->
+            <span id="file-chosen"></span>
+          </div>
+          <div class="col-md-6">
+            <label
+              for="inputName"
+              class="form-label"
+              >Your Full Name</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="inputName"
+              placeholder="Your Full Name "
+            />
+          </div>
+          <div class="col-md-6">
+            <label
+              for="inputEmail142"
+              class="form-label"
+              >Email Address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="inputEmail142"
+              placeholder="Email Address"
+            />
+          </div>
+          <div class="col-md-6">
+            <label
+              for="inputPhoneNumber"
+              class="form-label"
+            >
+              Phone Number</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="inputPhoneNumber"
+              placeholder="Phone Number"
+            />
+          </div>
+          <div class="col-md-6">
+            <label
+              for="InputLInkedIN"
+              class="form-label"
+              >Linked In Profile</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="InputLInkedIN"
+              placeholder="linkedin.com/dezakir"
+            />
+          </div>
+          <div class="col-md-6">
+            <label
+              for="inputPortfolioLInk"
+              class="form-label"
+              >Portfolio Link</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="inputPortfolioLInk"
+              placeholder="Portfolio Link"
+            />
+          </div>
+          <div class="col-md-6">
+            <label
+              for="inputComapnyWebsite"
+              class="form-label"
+              >Current Company Websitet</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="inputComapnyWebsite"
+              placeholder="Current Company Website"
+            />
+          </div>
+          <div class="col-12">
+            <label
+              for="inputgulprea"
+              class="form-label"
+              >About yourself & tell us why you thought, you are fit on this position?</label
+            >
+            <textarea
+              class="form-control"
+              id="inputtextArea"
+              placeholder="About Yourself"
+              rows="10"
+              spellcheck="false"
+            ></textarea>
+          </div>
+          <div class="col-12">
+            <button
+              type="submit"
+              class="btn btn-primary"
+            >
+              Apply The Position
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--
+  #############
+  Navigation Footer Section
+  #############
+-->
+<footer
+  class="footer text-center text-md-start py-7"
+  id="footer"
+>
+  <div class="container">
+    <!--Navigation Top Footer area-->
+    <div class="row">
+      <!-- Navigation Footer Logo -->
+      <div class="col-12 col-lg-3 me-auto mt-4">
+        <div class="footer-description text-center text-lg-start">
+          <a
+            href="index.html"
+            class="mb-5"
+          >
+            <img
+              src="images/footer-logo.svg"
+              alt="logo"
+            />
+          </a>
+          <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing .</p>
+        </div>
+        <div class="footer-description text-center text-lg-start pb-md-6">
+          <p class="mb-3">Stay in touch</p>
+          <form
+            action="#"
+            class="footer-submit-form"
+          >
+            <div class="from-group">
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your email address"
+                />
+                <div class="submit">
+                  <button type="submit">
+                    <svg
+                      width="16"
+                      height="14"
+                      viewBox="0 0 16 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.00761904 14L16 7L0.00761904 0L0 5.44444L11.4286 7L0 8.55556L0.00761904 14Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!--Navigation Footer Logo-->
+
+      <!--Navigation Footer Cols-->
+      <div class="col-12 col-md-4 col-lg-2">
+        <div class="footer-widget pt-3">
+          <h6>Company</h6>
+          <ul class="list-unstyled">
+            <li>
+              <a
+                href="service.html"
+                class="py-2"
+                >Services
+              </a>
+            </li>
+            <li>
+              <a
+                href="career.html"
+                class="py-2"
+                >Career</a
+              >
+            </li>
+            <li>
+              <a
+                href="blog.html"
+                class="py-2"
+                >Blogs</a
+              >
+            </li>
+            <li>
+              <a
+                href="contact.html"
+                class="py-2"
+                >Contact us</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-widget pt-3">
+          <h6>Company</h6>
+          <ul class="list-unstyled">
+            <li>
+              <a
+                href="privacy-policy.html"
+                class="py-2"
+              >
+                Privacy Policy</a
+              >
+            </li>
+            <li>
+              <a
+                href="terms-condition.html"
+                class="py-2"
+                >Terms of Service</a
+              >
+            </li>
+            <li>
+              <a
+                href="business-policy.html"
+                class="py-2"
+                >Business Policy</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--End of Navigation Footer Cols-->
+
+      <!--Navigation Footer Cols-->
+      <div class="col-12 col-md-4 col-lg-3">
+        <div class="footer-widget pt-3">
+          <h6>Canada</h6>
+          <p>
+            1901 Thornridge Cir. Shiloh, <br />
+            Hawaii 81063
+          </p>
+        </div>
+        <div class="footer-widget pt-3">
+          <h6>United States</h6>
+          <p>
+            2118 Thornridge Cir. Syracuse,<br />
+            Connecticut 35624
+          </p>
+        </div>
+        <div class="footer-widget pt-3">
+          <h6>Work inquiries</h6>
+          <ul class="list-unstyled">
+            <li>
+              <p class="mb-0">Interested in working with us?</p>
+            </li>
+            <li>
+              <a
+                href="mailto:info@growthus.com"
+                class="mb-4"
+              >
+                info@growthus.com</a
+              >
+            </li>
+            <li><a href="tel:+3.230.705.5448"> Ph: +3.230.705.5448</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--End of Navigation Footer Cols-->
+      <!--Navigation Footer Cols-->
+      <div class="col-12 col-md-4 col-lg-2">
+        <div class="footer-widget pt-3">
+          <h6>Social Media</h6>
+          <ul class="list-unstyled">
+            <li>
+              <a
+                href="#"
+                class="py-2"
+              >
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="py-2"
+              >
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="py-2"
+              >
+                Lindedin
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-widget pt-3">
+          <h6>Resources</h6>
+          <ul class="list-unstyled">
+            <li>
+              <a
+                href="contact.html"
+                class="py-2"
+              >
+                Help & Support
+              </a>
+            </li>
+            <li>
+              <a
+                href="project.html"
+                class="py-2"
+              >
+                Customer Case Studies
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--End of Navigation Footer Cols-->
+    </div>
+    <!--End of Navigation Footer Top Area-->
+    <!-- Footer Bottom Area -->
+    <div class="row clearfix">
+      <div class="col-md-12">
+        <div class="text-center text-lg-start">
+          <p class="text-secondary-light mb-0">
+            Copyright <span id="copyrightYear"></span> Growthus, All rights reserved!
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End of Footer Bottom Area -->
+  </div>
+  <!--End of footer Items-->
+</footer>
+<!--
+  #############
+  End Navigation Footer Section
+  #############
+-->
+
+
+<!--
+  #############
+  Footer Area
+  #############
+-->
+<!-- Mark up for Script Section-->
+<script src="vendor/jQuery/jquery.min.js"></script>
+<script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="vendor/slick/slick.min.js"></script>
+<script src="vendor/aos/aos.js"></script>
+<script src="vendor/tweenmax/TweenMax.min.js"></script>
+<script src="vendor/isotop/isotop-package.js"></script>
+<script src="vendor/waypoints/waypoints.min.js"></script>
+<script src="vendor/counter-up/countup.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>

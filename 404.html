@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Grouwthus</title>
+
+  <!--Meta For No Index-->
+  <meta name="robots" content="noindex, Nofollow, Noimageindex">
+  
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Stylesheets -->
+  <link href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet" />
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="vendor/icomoon/style.css" rel="stylesheet" />
+  <link href="vendor/aos/aos.css" rel="stylesheet" />
+  <link href="vendor/slick/slick-theme.css" rel="stylesheet" />
+  <link href="vendor/slick/slick.css" rel="stylesheet" />
+  <link href="css/theme.css" rel="stylesheet" />
+  <link href="vendor/phosphor-icons/css/phosphor.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+</head>
+
+<body>
+
+<!--
+  #############
+  Navbar Area
+  #############
+-->
+
+<header>
+  <!--Navbar-->
+  <nav
+    class="navbar navbar-expand-lg position-fixed w-100 zindex-dropdown"
+    id="navigationBar"
+  >
+    <div class="container">
+      <!--Navbar Brand-->
+      <a
+        class="navbar-brand"
+        href="index.html"
+      >
+        <img
+          src="images/logo.svg"
+          alt="logo"
+        />
+      </a>
+      <!--Navbar Toggler-->
+      <button
+        class="navbar-toggler p-3"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-default">
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 18 18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill="white"
+              d="M17.4,6.2H0.6C0.3,6.2,0,5.9,0,5.5V4.1c0-0.4,0.3-0.7,0.6-0.7h16.9c0.3,0,0.6,0.3,0.6,0.7v1.4C18,5.9,17.7,6.2,17.4,6.2z M17.4,14.1H0.6c-0.3,0-0.6-0.3-0.6-0.7V12c0-0.4,0.3-0.7,0.6-0.7h16.9c0.3,0,0.6,0.3,0.6,0.7v1.4C18,13.7,17.7,14.1,17.4,14.1z"
+            ></path>
+          </svg>
+        </span>
+        <span class="navbar-toggler-toggled">
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 18 18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill="white"
+              d="M11.5,9.5l5-5c0.2-0.2,0.2-0.6-0.1-0.9l-1-1c-0.3-0.3-0.7-0.3-0.9-0.1l-5,5l-5-5C4.3,2.3,3.9,2.4,3.6,2.6l-1,1 C2.4,3.9,2.3,4.3,2.5,4.5l5,5l-5,5c-0.2,0.2-0.2,0.6,0.1,0.9l1,1c0.3,0.3,0.7,0.3,0.9,0.1l5-5l5,5c0.2,0.2,0.6,0.2,0.9-0.1l1-1 c0.3-0.3,0.3-0.7,0.1-0.9L11.5,9.5z"
+            ></path>
+          </svg>
+        </span>
+      </button>
+      <!--Navbar Menus Collapse-->
+      <div
+        class="collapse navbar-collapse"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav ms-xl-5">
+          <li class="nav-item">
+            <a
+              href="about.html"
+              class="nav-link "
+            >
+              About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              href="service.html"
+            >
+              Services
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              href="career.html"
+            >
+              Job
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              href="project.html"
+            >
+              Portfolio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              href="blog.html"
+            >
+              Blog
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              role="button"
+              data-bs-toggle="dropdown"
+            >
+              Others
+            </a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-menu-wrapper">
+                <ul class="list-unstyled">
+                  <li class="dropdown-menu-item">
+                    <a href="service-single.html"> Service Details </a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a href="career-details.html"> Job Details </a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a href="blog-details.html"> Blog Single </a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a href="contact.html"> Contact Page </a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a href="taxonomy.html"> Taxonomy Page </a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a href="404.html"> 404 Page </a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a href="privacy-policy.html"> Privacy & Policy </a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a href="terms-condition.html"> Terms & Conditions </a>
+                  </li>
+                  <li class="dropdown-menu-item">
+                    <a href="business-policy.html"> Business Policy </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item ms-lg-6 ms-sm-0">
+            <a
+              class="btn btn-navigation w-100"
+              href="contact.html"
+              tabindex="-1"
+              aria-disabled="true"
+            >
+              Let's Talk
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<!--
+  #############
+  End of  Navbar Area
+  #############
+-->
+
+
+<!--
+  ###########
+  404 Page 
+  ###########
+-->
+<section class="error">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <div class="error-content text-center text-lg-start mb-lg-0 mb-6">
+          <h1 class="text-primary">404</h1>
+          <h2 class="mb-6">Page not found!</h2>
+          <a
+            href="index.html"
+            class="btn btn-primary"
+          >
+            Go to Home</a
+          >
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="text-center">
+          <img
+            src="images/404/error.png"
+            class="error-image"
+            alt="error-image"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--
+  #############
+  Navigation Footer Section
+  #############
+-->
+<footer
+  class="footer text-center text-md-start py-7"
+  id="footer"
+>
+  <div class="container">
+    <!--Navigation Top Footer area-->
+    <div class="row">
+      <!-- Navigation Footer Logo -->
+      <div class="col-12 col-lg-3 me-auto mt-4">
+        <div class="footer-description text-center text-lg-start">
+          <a
+            href="index.html"
+            class="mb-5"
+          >
+            <img
+              src="images/footer-logo.svg"
+              alt="logo"
+            />
+          </a>
+          <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing .</p>
+        </div>
+        <div class="footer-description text-center text-lg-start pb-md-6">
+          <p class="mb-3">Stay in touch</p>
+          <form
+            action="#"
+            class="footer-submit-form"
+          >
+            <div class="from-group">
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your email address"
+                />
+                <div class="submit">
+                  <button type="submit">
+                    <svg
+                      width="16"
+                      height="14"
+                      viewBox="0 0 16 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.00761904 14L16 7L0.00761904 0L0 5.44444L11.4286 7L0 8.55556L0.00761904 14Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!--Navigation Footer Logo-->
+
+      <!--Navigation Footer Cols-->
+      <div class="col-12 col-md-4 col-lg-2">
+        <div class="footer-widget pt-3">
+          <h6>Company</h6>
+          <ul class="list-unstyled">
+            <li>
+              <a
+                href="service.html"
+                class="py-2"
+                >Services
+              </a>
+            </li>
+            <li>
+              <a
+                href="career.html"
+                class="py-2"
+                >Career</a
+              >
+            </li>
+            <li>
+              <a
+                href="blog.html"
+                class="py-2"
+                >Blogs</a
+              >
+            </li>
+            <li>
+              <a
+                href="contact.html"
+                class="py-2"
+                >Contact us</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-widget pt-3">
+          <h6>Company</h6>
+          <ul class="list-unstyled">
+            <li>
+              <a
+                href="privacy-policy.html"
+                class="py-2"
+              >
+                Privacy Policy</a
+              >
+            </li>
+            <li>
+              <a
+                href="terms-condition.html"
+                class="py-2"
+                >Terms of Service</a
+              >
+            </li>
+            <li>
+              <a
+                href="business-policy.html"
+                class="py-2"
+                >Business Policy</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--End of Navigation Footer Cols-->
+
+      <!--Navigation Footer Cols-->
+      <div class="col-12 col-md-4 col-lg-3">
+        <div class="footer-widget pt-3">
+          <h6>Canada</h6>
+          <p>
+            1901 Thornridge Cir. Shiloh, <br />
+            Hawaii 81063
+          </p>
+        </div>
+        <div class="footer-widget pt-3">
+          <h6>United States</h6>
+          <p>
+            2118 Thornridge Cir. Syracuse,<br />
+            Connecticut 35624
+          </p>
+        </div>
+        <div class="footer-widget pt-3">
+          <h6>Work inquiries</h6>
+          <ul class="list-unstyled">
+            <li>
+              <p class="mb-0">Interested in working with us?</p>
+            </li>
+            <li>
+              <a
+                href="mailto:info@growthus.com"
+                class="mb-4"
+              >
+                info@growthus.com</a
+              >
+            </li>
+            <li><a href="tel:+3.230.705.5448"> Ph: +3.230.705.5448</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--End of Navigation Footer Cols-->
+      <!--Navigation Footer Cols-->
+      <div class="col-12 col-md-4 col-lg-2">
+        <div class="footer-widget pt-3">
+          <h6>Social Media</h6>
+          <ul class="list-unstyled">
+            <li>
+              <a
+                href="#"
+                class="py-2"
+              >
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="py-2"
+              >
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="py-2"
+              >
+                Lindedin
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-widget pt-3">
+          <h6>Resources</h6>
+          <ul class="list-unstyled">
+            <li>
+              <a
+                href="contact.html"
+                class="py-2"
+              >
+                Help & Support
+              </a>
+            </li>
+            <li>
+              <a
+                href="project.html"
+                class="py-2"
+              >
+                Customer Case Studies
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--End of Navigation Footer Cols-->
+    </div>
+    <!--End of Navigation Footer Top Area-->
+    <!-- Footer Bottom Area -->
+    <div class="row clearfix">
+      <div class="col-md-12">
+        <div class="text-center text-lg-start">
+          <p class="text-secondary-light mb-0">
+            Copyright <span id="copyrightYear"></span> Growthus, All rights reserved!
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End of Footer Bottom Area -->
+  </div>
+  <!--End of footer Items-->
+</footer>
+<!--
+  #############
+  End Navigation Footer Section
+  #############
+-->
+
+
+<!--
+  #############
+  Footer Area
+  #############
+-->
+<!-- Mark up for Script Section-->
+<script src="vendor/jQuery/jquery.min.js"></script>
+<script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="vendor/slick/slick.min.js"></script>
+<script src="vendor/aos/aos.js"></script>
+<script src="vendor/tweenmax/TweenMax.min.js"></script>
+<script src="vendor/isotop/isotop-package.js"></script>
+<script src="vendor/waypoints/waypoints.min.js"></script>
+<script src="vendor/counter-up/countup.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>
